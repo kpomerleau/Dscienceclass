@@ -1,14 +1,14 @@
 
-1. Using Chipotle.tsv in the data subdirectory
+##1. Using Chipotle.tsv in the data subdirectory
 
-	navated to the data subdirectory: 
+	navated to the data subdirectory
 
 		`cd ~/documents/github/dat7/data`
 		
 
 	**i. look at head and tail. What do the rows and columns mean**
 		
-		code used:
+		code used
 			
 			```
 			head chipotle
