@@ -1,7 +1,6 @@
+**1. Using Chipotle.tsv in the data subdirectory**
 
-##1. Using Chipotle.tsv in the data subdirectory
-
-	navated to the data subdirectory
+	navagated to the data subdirectory
 
 		`cd ~/documents/github/dat7/data`
 		
@@ -62,10 +61,9 @@
 		282 of 553 chicken burritos (orders) had black beans
 		Chicken burritos more often have black beans
 
-##2. Make a list of all CSV and TSV files in the DAT repo
+**2. Make a list of all CSV and TSV files in the DAT repo**
 	
-	code used:
-		
+
 		```
 		cd ~/documents/github/dat7
 		find -name *.?sv
@@ -78,7 +76,7 @@
 	./data/sms.tsv
 	./data/ufo.csv
 	```
-##3. Count the number of occurences of the world 'dictionary' across all files in DAT7 repo
+**3. Count the number of occurences of the world 'dictionary' across all files in DAT7 repo**
 
 	code used: 
 
