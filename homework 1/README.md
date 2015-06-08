@@ -1,5 +1,5 @@
 
-### 1. Using Chipotle.tsv in the data subdirectory:
+1. Using Chipotle.tsv in the data subdirectory
 
 	navated to the data subdirectory: 
 
@@ -61,6 +61,7 @@
 		105 of 553 chicken burritos (orders) had pinto beans
 		282 of 553 chicken burritos (orders) had black beans
 		Chicken burritos more often have black beans
+
 ##2. Make a list of all CSV and TSV files in the DAT repo
 	
 	code used:
