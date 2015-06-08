@@ -1,4 +1,4 @@
-**1. Using Chipotle.tsv in the data subdirectory**
+##1. Using Chipotle.tsv in the data subdirectory
 
 navagated to the data subdirectory
 
@@ -27,7 +27,7 @@ code used:
 tail chipotle
 ```
 
-1834 orders
+1834 orders. This is the max value in the "order_id" variable
 
 **iii. How many lines are in the file?**
 
@@ -48,7 +48,9 @@ grep 'Chicken Burrito' chipotle.tsv | wc -l
 grep 'Steak Burrito' chipotle.tsv | wc -l
 ```
 
-The chicken burrito was ordered 553 times and the steak burrito was ordered 368 times. 
+The chicken burrito was ordered 553 times and the steak burrito was ordered 368 times. However,
+This may understate the total number of each burrito ordered. Some people order 2 identical
+burritos, which is indicated by the "quantity" variable.
 
 **v. Do chicken burritos more often have black beans or pinto beans?**
 
@@ -63,7 +65,7 @@ grep 'Black Beans' chipotle.tsv | grep 'Chicken Burrito' | wc -l
 282 of 553 chicken burritos (orders) had black beans
 Chicken burritos more often have black beans
 
-**2. Make a list of all CSV and TSV files in the DAT repo**
+##2. Make a list of all CSV and TSV files in the DAT repo
 	
 
 ```
@@ -79,7 +81,7 @@ find -name *.?sv
 ./data/ufo.csv
 ```
 
-**3. Count the number of occurences of the world 'dictionary' across all files in DAT7 repo**
+##3. Count the number of occurences of the word 'dictionary' across all files in DAT7 repo
 
 code used: 
 
