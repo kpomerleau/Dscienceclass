@@ -70,7 +70,7 @@ toppings = 0
 
 Average of 5 toppings per burrito
 
-**6. Create a dictionary in which the keys represent chip orders and the values represent the total number of orders.
+**6. Create a dictionary in which the keys represent chip orders and the values represent the total number of orders.**
 	
 
 ```
