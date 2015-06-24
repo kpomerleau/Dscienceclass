@@ -14,6 +14,6 @@ Link to Match Detail API data: https://wiki.teamfortress.com/wiki/WebAPI/GetMatc
 
 **Interest:**
 
-I want to answer this question mainly because I play Dota 2 frequently. It will be interesting to apply data science to a topic I both understand and enjoy. Secondly, Dota 2 is a game played in real time. Many factors go into a "successful" match. It will be interesting to see if there are fundamental parts of the game (beyond skill and luck) that determine the outcome and if they do, to what extent. Lastly, one could see this as a learning tool. Those who are not familiar with the game may not know which hero to select in certain situations. This may answer that question using previous matches, rather than using the application of theory to drive hero choices.
+I want to answer this question mainly because I play Dota 2 frequently. It will be interesting to apply data science to a topic I both understand and enjoy. Secondly, Dota 2 is a game played in real time. Many factors go into a "successful" match. It will be interesting to see if there are fundamental parts of the game (beyond skill and luck) that determine the outcome and if they do, to what extent. Lastly, one could see this as a learning tool. Those who are not familiar with the game may not know which hero to select in certain situations. This may help people choose the best hero based on previous matches, rather than using theory that they may not be familiar with.
 
 (I know this is nerdy)		
