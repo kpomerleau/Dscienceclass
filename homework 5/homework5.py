@@ -192,7 +192,7 @@ train_test_rmse(X, y)
     lm.conf_int()
     lm.pvalues
     lm.rsquared
-    
+ 
         train_test_rmse(X8, y)
         train_test_rmse(X7, y)        
     
