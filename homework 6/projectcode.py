@@ -13,7 +13,8 @@ This resets the variables
 Import pandas and the dota2api package
 """
 
-from dota2py import apiimport pandas as pd
+from dota2py import api
+import pandas as pd
 
 import requests
 import numpy as np
