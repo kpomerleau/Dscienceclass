@@ -50,10 +50,10 @@ y_train[y_train == 5] = 1
 from sklearn.feature_extraction.text import CountVectorizer
 
 vect = CountVectorizer()
-vect.fit(X_train)
-vect.fit(X_test)
+#vect.fit(X_train)
+#vect.fit(X_test)
 
-X_train_dtm = vect.transform(X_train)
+X_train_dtm = vect.fit_transform(X_train)
 X_test_dtm = vect.transform(X_test)
 
 X_test_dtm = X_test_dtm.toarray()
@@ -115,7 +115,7 @@ test = pd.DataFrame(np.column_stack((thresholds,distance)), columns = ['threshol
 
 test.thresholds[test.distance == test.distance.min()]
 
-#Balanced Threshold is .634959
+#Balanced Threshold is .996
 
 
 
